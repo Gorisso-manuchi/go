@@ -1,0 +1,14 @@
+GET http://localhost:8080/users
+
+POST http://localhost:8080/adduser
+Content-Type: application/json
+
+
+{
+    "id":"4",
+    "name":"Artem",
+    "firstname":"Tractor"
+}
+
+
+DELETE  http://localhost:8080/users/2
